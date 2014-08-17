@@ -3,11 +3,11 @@ Created on Aug 15, 2014
 
 @author: Prathyush
 '''
-from main import test
+import time
 
 print "Fibonacci Series"
 
-start = test.Time()
+start = time.time()
 
 def Fib(MIN,MAX):
     fib=0
@@ -24,7 +24,7 @@ def Fib(MIN,MAX):
     
 
 print Fib(0,4000000)   
-end = test.Time()
+end = time.time()
 
 
 print 'Elapsed test: '+str(end-start)+'s'
