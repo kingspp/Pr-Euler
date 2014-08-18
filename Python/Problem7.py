@@ -4,13 +4,12 @@ Created on Aug 17, 2014
 @author: Prathyush
 '''
 import math
-from main import test
+import time
 
 print '10001 Prime number'
 
 
-start=test.Time()
-
+start=time.time()
 i=0
 num=0
 
@@ -35,6 +34,6 @@ print 'The 10001st Prime: '+str(i-1)
 
 
 
-end=test.Time()
+end=time.time()
 print 'The test elapsed is: ' +str(end-start)+ 's'
 
