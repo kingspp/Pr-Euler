@@ -5,12 +5,12 @@ Created on Aug 16, 2014
 '''
 
 import math
-import time
+from main import test
 
 print "Difference between the sum of the squares of the first one hundred natural numbers and the square of the sum"
 SUM1=0
 SUM2=0
-start=time.time()
+start=test.Time()
 
 for i in xrange(1,100+1):
     SUM1+=i
@@ -23,7 +23,7 @@ SUM1=SUM1**2
 print SUM1-SUM2
 
 
-end=time.time()
+end=test.Time()
 
 print 'The test elapsed is: ' +str(end-start)+ 's'
 
