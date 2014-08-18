@@ -4,9 +4,9 @@ Created on Aug 17, 2014
 @author: Prathyush
 '''
 # To do
-from main import test
+import time
  
-start = test.Time()
+start = time.time()
 
 NUM = []
 NUMS=[]
@@ -45,5 +45,5 @@ for i in range (len(NUMS)-12):
         resf=res 
     
 print 'The product of consecutive 13 digits: ' +str(resf) 
-end = test.Time() 
+end = time.time()
 print "test Elapsed is:" + str(end-start)+'s'

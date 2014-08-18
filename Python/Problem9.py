@@ -4,11 +4,11 @@ Created on Aug 17, 2014
 @author: Prathyush
 '''
 
-from main import test
+import time
 
 print 'Pythogorean Triplets'
 
-start=test.Time()
+start=time.time()
 
 N,M=0,0
 
@@ -31,5 +31,5 @@ for N in range(1001):
 
 print str(a)+'+'+str(b)+'+'+str(c)+'= 1000'
 print 'Product of Pythogorean triplets is: '+ str(a*b*c)
-end=test.Time()
+end=time.time()
 print "test Elapsed is:" + str(end-start)+'s'
