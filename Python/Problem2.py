@@ -10,7 +10,7 @@ print "Fibonacci Series"
 start = time.time()
 
 def Fib(MIN,MAX):
-    fib=0
+    
     even=0
     a,b=MIN,MIN+1
     for i in xrange (MAX):

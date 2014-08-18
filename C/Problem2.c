@@ -23,11 +23,12 @@ int main() {
 
 int fib(int MIN,int MAX)
 {
-	int even=0,a=MIN,b=MIN+1,i=0;
-	for(i=0;i<MAX;i++)
+	int even=0,a=MIN,b=MIN+1,i=0,t=0;
+	for(i=0;i<=MAX;i++)
 	{
+		t=a;
 		a=b;
-		b=a+b;
+		b=t+b;
 		if(b>MAX)
 		{
 			break;
