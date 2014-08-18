@@ -4,10 +4,10 @@ Created on Aug 15, 2014
 @author: Prathyush
 '''
 import math
-from main import test
+import time
 
 print 'Largest Prime Factor'
-start=test.Time()
+start=time.time()
 def is_prime(n):
     if n == 2:
         return 2
@@ -29,6 +29,6 @@ for j in xrange(2,root):
 
 print fin
 
-end=test.Time()
+end=time.time()
 
 print 'test elapsed is: '+str(end-start)+'s'

@@ -3,7 +3,7 @@ Created on Aug 17, 2014
 
 @author: Prathyush
 '''
-from main import test
+import time
 
 start = test.Time()
 print "Palindrome -  Highest Triplets"
