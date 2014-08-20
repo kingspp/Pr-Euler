@@ -7,6 +7,8 @@ import time
 
 start= time.time()
 
+print "Least number divisible by first 20 natural numbers"
+
 i=30
 
 while (i %  2 != 0 or i %  3 != 0 or i %  4 != 0 or i %  5 != 0 or 
