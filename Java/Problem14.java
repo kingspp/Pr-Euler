@@ -1,4 +1,8 @@
+/*
+Created on Aug 28, 2014
 
+@author: Prathyush
+*/
 public class Problem14 {
 
 	public static void main(String args[])

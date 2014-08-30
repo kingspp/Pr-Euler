@@ -1,3 +1,8 @@
+/*
+Created on Aug 18, 2014
+
+@author: Prathyush
+*/
 public class Problem2 {
 	public static void main(String v[]) {
 		double start = System.nanoTime();

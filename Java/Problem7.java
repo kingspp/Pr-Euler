@@ -1,3 +1,9 @@
+/*
+Created on Aug 18, 2014
+
+@author: Prathyush
+*/
+
 public class Problem7 {
 
 	public static void main(String v[]) {
